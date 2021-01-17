@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    
+</head>
+<body>
+    <!-- div containing whole  -->
+    <div id="container">
+        <!-- fullscreen menu -->
+        <div id="full_menu">
+            <i id="close" class="ri-close-fill"></i>
+            <div class="links menulinks">
+                <a onclick = "closet()" href="#design">Designs</a>
+                <a onclick = "closet()" href="#work_previews">work preview</a>
+                <a onclick = "closet()" href="#contact">contact</a>
+            </div>
+        </div>
+        <!-- navbar -->
+        <nav>
+            <h4>logo</h4>
+            <div class="links">
+                <a href="#look_designer">home</a>
+                <a href="#design">Designs</a>
+                <a href="#work_previews">work preview</a>
+            </div>
+            <a id="menubar" href="#">
+                <div id="menu">
+                <h5>menu</h5>
+                <i class="ri-menu-4-line"></i>
+            </div></a>
+           
+        </nav>
+        <!-- hero -->
+        <div id="look_designer" class="anim">
+            <div class="upperheading anim">
+                <h1>looking for a UI Designer/engineer?</h1>
+            </div>
+            <div class="midheading anim">
+                <h3>you're at the right place!</h3>
+            </div>
+            <div class="content anim">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam distinctio<br> sed obcaecati eum? Provident illum delectus  dicta quasi tenetur fuga.</p>
+            </div>
+            <div id="hero_img" class="anim">
+                <img src="/img/hero_img.png" alt="">
+            </div>
+        </div>
+
+        <!-- hello im sasha -->
+        <div id="intro" class="anim">
+            <div class="upperheading anim">
+                <h1>hello , i'm Aditi!</h1>
+            </div>
+            <div class="midheading anim">
+                <h3>i'm a freelance UI/UX designer <br> and front end developer.</h3>
+            </div>
+            <div class="content anim">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam distinctio<br> sed obcaecati eum? Provident illum delectus  dicta quasi tenetur fuga.</p>
+            </div>
+        </div>
+
+        <!-- check out design -->
+
+        <div id="design" class="anim">
+            <div class="upperheading anim">
+                <h1>check out my designs!</h1>
+            </div>
+            <div class="mobile_design_sample anim">
+                <div id="front" class="anim" >
+                    <img class="shadow_size low" src="/img/iPhone X, XS, 11 Pro – 1.png" alt="">
+                </div>
+                <div id="middle " >
+                    <img class="shadow_size" src="/img/iPhone X, XS, 11 Pro – 2new.png" alt="">
+                </div>
+                <div id="last" class="anim">
+                    <img class="shadow_size low" src="/img/iPhone X, XS, 11 Pro – 3.png" alt="">
+                </div>
+            </div>
+        </div>
+
+        <!-- work previews -->
+        <div id="work_previews" class="anim">
+            <div class="upperheading anim">
+                <h1>take a look at my work</h1>
+            </div>
+            <div class="content anim">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam distinctio<br> sed obcaecati eum? Provident illum delectus  dicta quasi tenetur fuga.</p>
+            </div>
+            <div id="work_sample" class="mobile_design_sample anim">
+            <div id="front" >
+                <img class="shadow_size " src="/img/speaker 1.png" alt="">
+            </div>
+            <div id="last" >
+                <img class="shadow_size " src="/img/speaker 2.png" alt="">
+            </div>
+            </div>
+            <div class="midheading anim">
+                <h3>created using HTML , CSS and javascript</h3>
+            </div>
+            <div id="arrow_down" class="anim">
+            <i class="ri-arrow-down-line"></i>
+           </div>
+           <a target="_blank" class="anim" href="https://www.instagram.com/aditiisaxena/">
+            <button>Check out my work</button>
+           </a>
+            <!-- <video src=""></video> -->
+        </div>
+
+        <!-- like my work -->
+        <div id="contact" class="anim">
+            <div class="upperheading anim">
+                <h1>Like my work?</h1>
+            </div>
+            <div class="content anim">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam distinctio<br> sed obcaecati eum? Provident illum delectus  dicta quasi tenetur fuga.</p>
+            </div>
+            <div id="contact_buttons" class="anim">
+                <a target="_blank" href="https://dribbble.com/aditisaxena"><button>hire me</button></a>
+                <a  target="_blank" href="https://www.instagram.com/aditiisaxena/"><button>contact</button></a>
+            </div>
+        </div>
+
+
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.2/ScrollTrigger.js"
+    integrity="sha512-SlylYdBDASiaMlfQSS5pvjaWTpGm4ma/FHHUivglIm0uwMK0wDlfmGTePHxqDCLWWmiT7GaXEF644y+ufU7njQ=="
+    crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+   
+</body>
+</html>
